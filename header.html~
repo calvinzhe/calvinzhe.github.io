@@ -1,0 +1,12 @@
+<header>
+<h1>CALVIN Z HE</h2>
+</header>
+
+<nav>
+<ul>
+<li><a href=#>Home</a></li>
+<li><a href=#>About</a></li>
+<li><a href=#>Contact</a></li>
+</ul>
+<div class="sm"><a href=#>Social Media</a></div>
+</nav>
