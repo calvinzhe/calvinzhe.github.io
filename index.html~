@@ -17,10 +17,12 @@
 </ul>
 <div class="heading_right"><a href=#>Right Item</a></div>
 </nav>
-<hr class="hrstyle">
 </div>
 
+
+<h3>Filler Content:</h3>
 <div class="container">
+<p>Welcome to my GitHub Pages site!  I don't exactly know what type of content I should put on this site, so here are some of my ramblings on Windows vs. Linux.</p>
 <p>While Linux is a great open-source operating system, it is difficult and many times frustrating to use compared to Windows.  Most proprietary software is written with Windows in mind, and so Windows has greater compatibility with the many different programs that are out there.  Although Linux consists of a large variety of open-source software, the ones that are Linux exclusive are usually not as good as their proprietary counter parts.</p>
 <p>Installation of Windows software is much easier compared to Linux, and you are less likely to run into dependency errors.  Most of the time, all you need to do is run the install wizard, and everything is taken care of for you.  In Linux, different programs will require different procedures to install, requiring you to look up all of the necessary commands if you have not memorized them.  For most programs, the recommended means of installing programs is through package managers, which are hubs from which you can fetch a large variety of software from common repositories.</p>
 <p>Sometimes, these repositories do not have the latest version of the software, which will require you to manually download source files and build installations.  The process is tedius, as you have to extract the downloaded file into a directory before you can conduct the installation.  Sometimes, the installation process will fail for whatever reason, forcing you to conduct further research.  To top it off, when you need to uninstall a manually installed program, you usually can't because most programs do not come with an uninstaller, while package managers are only able to uninstall packages that were installed through package managers in the first place.  This wastes a lot of hours just trying to figure out how to set up your environment successfully, which could be better spent more productively.</p>

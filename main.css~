@@ -8,7 +8,7 @@ font-size: 1.10rem;
 body
 
 .heading{
-background-image: -webkit-linear-gradient(bottom, rgb(225,100,100), rgb(255,255,100), rgb(255,255,255));
+background-image: -webkit-linear-gradient(bottom, rgb(225,100,100), rgb(255,255,200), rgb(255,255,255));
 padding-bottom: 60px;
 top: 0px;
 left: 0;
@@ -58,6 +58,9 @@ margin-right: 50px;
 margin-bottom: 55px;
 text-align: justify;
 text-indent: 30px;
+}
+.container p{
+display: inline;
 }
 hr.hrstyle{
 border: 0;
