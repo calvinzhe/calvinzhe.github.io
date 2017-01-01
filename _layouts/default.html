@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>{{ page.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<!-- Boostrap Max SDN-->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Custom CSS Stylesheet-->
+<link href="./custom.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="customHeader">
+<h1>Header</h1>
+</div>
+</div>
+
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+
+<div class="navbar-header">
+	<a class="navbar-brand">Website</a>
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+</div>
+
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+	<li class="dropdown">
+	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu1
+	<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		<li><a href="#">Menu1 A</a></li>
+		<li><a href="#">Menu1 B</a></li>
+		<li><a href="#">Menu1 C</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Menu2</a></li>
+	<li><a href="#">Menu3</a></li>
+</ul>
+
+<form class="navbar-form navbar-left">
+<div class="form-group"><input type="text" class="form-control" placeholder="Search">
+<button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button></div>
+</form>
+
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="#">Right1</a></li>
+	<li><a href="#">Right2</a></li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+{{ content }}
+
+</body>
+
+<footer class="container-fluid">
+<hr class="customHR">
+<center>&copy; Calvin Z He</center>
+</footer>
+
+</html>
