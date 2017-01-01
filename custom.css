@@ -1,3 +1,4 @@
+/* Menu Bar Background */
 .navbar{
 	background-image: -webkit-linear-gradient(bottom, rgb(225,140,140), rgb(255,255,200), rgb(255,255,255)); 
 }
@@ -6,6 +7,14 @@
 	color: rgb(200,50,50);
 }
 
+/* Header Colors - Default */
+h1, h2,
+h1 > a, h2 > a
+h1 > a:hover, h2 > a:hover{
+	color: rgb(200,50,50);
+}
+
+/* Fancy Horizontal Rule */
 .customHR{
 	border: 0;
 	height: 1px;
@@ -13,33 +22,41 @@
 	vertical-align: bottom;
 }
 
-/* Menu Colors Default */
-.navbar .nav > a,
-.navbar .nav > li > a,
-.navbar .nav > li.current-menu-item > a,
-.navbar .nav > li.current-menu-ancestor > a
-.dropdown-menu > li > a{
+/* Menu Icon */
+.navbar-toggle,
+.icon-bar{
+	background: rgb(255,255,200);
+	border-color: rgb(200,50,50);
 	color: rgb(200,50,50);
 }
 
-/* Menu Colors Hover */
-.navbar .nav > li > a:hover,
-.dropdown-menu > li > a:hover{
-	color: rgb(150,30,30);
+/* Menu Link Colors - Default */
+.navbar .nav > a,
+.navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a{
+	color: rgb(200,50,50);
 }
 
-/* Menu Colors Active */
+/* Menu Link Colors - Hover */
+.navbar .nav > li > a:hover,
+.dropdown-menu > li > a:hover{
+	background: rgb(225,100,100);
+	color: rgb(150,30,30);
+	text-decoration: underline;
+}
+
+/* Menu Link Colors - Active */
 .navbar .nav > li > a:active,
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a,
-.dropdown-menu > li > a:active,
-.dropdown-menu > a:active{
-	color: rgb(100,20,20);
-	font-style: bold
-	background: rgb(250,200,200);
+.dropdown-menu > li > a:active{
+	color: rgb(150,30,30);
+	text-decoration: underline;
+	background: rgb(255,255,200);
 }
 
-/* Menu Colors Dropdown Menu */
+/* Menu Dropdown Link Colors - Default*/
 .dropdown-menu > li > a{
 	color: rgb(200,50,50);
 	background: rgb(255,255,200);
