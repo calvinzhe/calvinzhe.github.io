@@ -6,6 +6,13 @@
 	color: rgb(200,50,50);
 }
 
+.customHR{
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgb(255,255,255), rgb(200,50,50), rgb(255,255,255));
+	vertical-align: bottom;
+}
+
 /* Menu Colors Default */
 .navbar .nav > a,
 .navbar .nav > li > a,
