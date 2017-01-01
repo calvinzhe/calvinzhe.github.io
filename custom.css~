@@ -1,0 +1,40 @@
+.navbar{
+	background-image: -webkit-linear-gradient(bottom, rgb(225,140,140), rgb(255,255,200), rgb(255,255,255)); 
+}
+
+.customHeader{
+	color: rgb(200,50,50);
+}
+
+/* Menu Colors Default */
+.navbar .nav > a,
+.navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a
+.dropdown-menu > li > a{
+	color: rgb(200,50,50);
+}
+
+/* Menu Colors Hover */
+.navbar .nav > li > a:hover,
+.dropdown-menu > li > a:hover{
+	color: rgb(150,30,30);
+}
+
+/* Menu Colors Active */
+.navbar .nav > li > a:active,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a,
+.dropdown-menu > li > a:active,
+.dropdown-menu > a:active,
+.dropdown-toggle > a{
+	color: rgb(100,20,20);
+	font-style: bold
+	background: rgb(250,200,200);
+}
+
+/* Menu Colors Dropdown Menu */
+.dropdown-menu > li > a{
+	color: rgb(200,50,50);
+	background: rgb(255,255,200);
+}
