@@ -9,7 +9,7 @@
 
 /* Header Colors - Default */
 h1, h2, h3, h4,
-h1 > a, h2 > a
+h1 > a, h2 > a,
 h1 > a:hover, h2 > a:hover{
 	color: rgb(200,50,50);
 }
