@@ -2,6 +2,7 @@
 layout: post
 title: "Tech Fair LA"
 date: 2017-01-27
+author: Calvin Z He
 ---
 
 Yesterday, I spent most of the day at the [Tech Fair LA](https://www.lamayor.org/TechFairLA) job fair, which featured the LA mayor, Eric Garcetti, as one of the speakers.  I can't remember the last time I saw a public official in person -- that is if there was ever such a time.  There is a first time for everything.
