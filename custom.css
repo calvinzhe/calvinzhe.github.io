@@ -67,3 +67,9 @@ h1 > a:hover, h2 > a:hover{
 	color: rgb(200,50,50);
 	background: rgb(255,255,200);
 }
+
+/* Center Image for Jekyll Kramdown*/
+.center-image{
+	margin: 0 auto;
+	display: block;
+}
