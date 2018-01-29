@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Science Project - Analysis of Poverty Rate in the US"
+title: "Data Science Project: Analysis of Poverty Rate"
 date: 2018-01-28
 author: Calvin Z He
 ---
@@ -40,7 +40,7 @@ If only I had a few extra hours, I might have gotten it in and passed the course
 <a href="/documents/analysis_of_poverty_rate_-_data_science_capstone.pdf">Analysis of Poverty Rate</a>.  Seeing that the due date has already past
 and that the topic for the capstone project changes each session, it shouldn't be an issue to have this posted.
 
-The project was an interesting one, and can be found at <a href"https://www.datasciencecapstone.org/">https://www.datasciencecapstone.org/</a>.
+The project was an interesting one, and can be found at <a href="https://www.datasciencecapstone.org/">https://www.datasciencecapstone.org/</a>.
 The topic was about poverty in the United States.  In short, we are given socioeconomic demographic geographic (or however you might put it) data
 on some of the counties in the United States (to include their poverty rates, defined in the linked report), and we are supposed to use all that
 we have learned in the program to predict the poverty rate of counties in which we do not know the poverty rate of.
@@ -89,5 +89,5 @@ adequate, so I may need to take what I just wrote back.
 Ironically, one of my goals from pursuing this program had been to learn R, but someone had suggested in a forum that it is better to stick with one language
 of either Python or R and get really good with it before learning the other, so I've stuck with Python for the most part this whole time.  I also don't feel
 like learning R just for the heck of it, because I've already used so many different languages that at this point, I am probably better off only learning a language
-when I know I will need to use it, otherwise I will be constantly struggling with confusing the syntacs of one language with another.
+when I know I will need to use it, otherwise I will be constantly struggling with confusing the syntax of one language with another.
 
