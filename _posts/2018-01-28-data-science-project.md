@@ -53,8 +53,9 @@ was that bad, in part thanks to my experience with using Python in Hudson's lab 
 figure out things like "device wrappers", incorporating asyncronous programming with timed commands, and going into rabbit holes following class
 inheritence hierarchies in order to troubleshoot problems associated with an open-source module whose paradigm changes from version to version is
 much more frustrating).
-Additionally, Python allows everything to done without having to utilize any cloud services.  I'm not a huge fan of web interfaces.  I need my
-development environment to be snappy and responsive and not feel like they've been designed for touch screens.
+Additionally, Python allows everything to done without having to utilize any cloud services and have to deal with their extra overhead.
+I'm also not a huge fan of web interfaces as I prefer my development environment to be snappy and responsive and not feel like they've
+been designed for touch screens.
 
 Plain old linear regression
 was used to create an easily understandable model (correlations between the poverty rate and other variables are given simply by their linear
