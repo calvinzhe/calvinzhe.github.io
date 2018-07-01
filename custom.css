@@ -81,7 +81,6 @@ h1 > a:hover, h2 > a:hover{
 
 .sharebuttons ul {
   margin: 20px 0 0 0;
-  text-align: center;
 }
 
 .sharebuttons ul li {
@@ -98,11 +97,11 @@ h1 > a:hover, h2 > a:hover{
 }
 
 .sharebuttons .facebook svg {
-  fill: #FF4500;
+  fill: #3B5998;
 }
 
 .sharebuttons .googleplus svg {
-  fill: #F0652F;
+  fill: #dd4b39;
 }
 
 .sharebuttons .twitter svg {
