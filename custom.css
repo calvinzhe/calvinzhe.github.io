@@ -74,7 +74,6 @@ h1 > a:hover, h2 > a:hover{
 	display: block;
 }
 
-
 /* Share buttons */
 .sharebuttons {
   margin: 0 auto 0 auto;
@@ -98,11 +97,11 @@ h1 > a:hover, h2 > a:hover{
   height: 40px;
 }
 
-.sharebuttons .reddit svg {
+.sharebuttons .facebook svg {
   fill: #FF4500;
 }
 
-.sharebuttons .hn svg {
+.sharebuttons .googleplus svg {
   fill: #F0652F;
 }
 
