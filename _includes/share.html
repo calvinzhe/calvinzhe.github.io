@@ -1,8 +1,7 @@
 <div class="sharebuttons">
-  <hr />
   <ul>
     <li>
-      <div class="sharetitle"> Share: </div>
+      <div class="sharetitle">  </div>
     </li>
     <li class="facebook">
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
@@ -25,4 +24,5 @@
       </a>
     </li>
   </ul>
+    <hr />
 </div>
