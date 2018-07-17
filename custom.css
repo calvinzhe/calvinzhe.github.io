@@ -40,14 +40,16 @@ h1 > a:hover, h2 > a:hover{
 .navbar .nav > a,
 .navbar .nav > li > a,
 .navbar .nav > li.current-menu-item > a,
-.navbar .nav > li.current-menu-ancestor > a{
+.navbar .nav > li.current-menu-ancestor > a,
+.dropdown-toggle{
 	color: rgb(200,50,50);
 }
 
 /* Menu Link Colors - Hover */
 .navbar .nav > li > a:hover,
 .dropdown-item:hover,
-.dropdown-menu > li > a:hover{
+.dropdown-menu > li > a:hover,
+.dropdown-toggle:hover{
 	background: rgb(225,50,50);
 	color: rgb(150,30,30);
 	text-decoration: underline;
@@ -58,7 +60,8 @@ h1 > a:hover, h2 > a:hover{
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a,
 .dropdown-item:active,
-.dropdown-menu > li > a:active{
+.dropdown-menu > li > a:active,
+.dropdown-toggle:active{
 	color: rgb(150,30,30);
 	text-decoration: underline;
 	background: rgb(255,255,200);
