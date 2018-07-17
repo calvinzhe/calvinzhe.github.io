@@ -63,7 +63,12 @@ h1 > a:hover, h2 > a:hover{
 }
 
 /* Menu Dropdown Link Colors - Default*/
-.dropdown-menu > li > a{
+.dropdown-menu{
+	color: rgb(200,50,50);
+	background: rgb(255,255,200);
+}
+
+.dropdown-toggle:active{
 	color: rgb(200,50,50);
 	background: rgb(255,255,200);
 }
