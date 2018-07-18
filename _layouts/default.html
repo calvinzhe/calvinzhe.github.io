@@ -5,12 +5,14 @@
 	<title>{{ page.title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8"/>
-	<!-- Boostrap Max SDN-->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
 	<!-- Custom CSS Stylesheet-->
 	<link href="/custom.css" type="text/css" rel="stylesheet">
 </head>
@@ -39,11 +41,11 @@
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/physics_animations">
 					Physics Animations<span class="caret"></span>
 				</a>
-				<ul class="dropdown-menu">
-					<li class="nav-item"><a class="dropdown-item" href="/physics_animations/index.html#projectile_motion">Projectile Motion</a></li>
-					<li class="nav-item"><a class="dropdown-item" href="/physics_animations/index.html#simple_harmonic_oscillator">Simple Harmonic Oscillator</a></li>
-					<li class="nav-item"><a class="dropdown-item" href="/physics_animations/index.html#monte_carlo_cyclotron">Monte Carlo Simulation of Cyclotron Motion in Plasma</a></li>
-				</ul>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="/physics_animations/index.html#projectile_motion">Projectile Motion</a>
+					<a class="dropdown-item" href="/physics_animations/index.html#simple_harmonic_oscillator">Simple Harmonic Oscillator</a>
+					<a class="dropdown-item" href="/physics_animations/index.html#monte_carlo_cyclotron">Monte Carlo Simulation of Cyclotron Motion in Plasma</a>
+				</div>
 			</li>
 			
 			<li class="nav-item">
