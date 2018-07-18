@@ -23,17 +23,11 @@ h1 > a:hover, h2 > a:hover{
 }
 
 /* Menu Icon */
-.navbar-toggle,
+.navbar-toggler,
 .icon-bar{
 	background: rgb(255,100,100);
 	border-color: rgb(200,50,50);
 	color: rgb(200,50,50);
-}
-.navbar-toggle:hover{
-	border-style: dashed;
-}
-.navbar-toggle:active{
-	border-style: dotted;
 }
 
 /* Menu Link Colors - Default */
@@ -52,7 +46,6 @@ h1 > a:hover, h2 > a:hover{
 .dropdown-item:hover,
 .dropdown-menu > li > a:hover,
 .dropdown-toggle:hover{
-	background: rgb(225,50,50);
 	color: rgb(150,30,30);
 	text-decoration: underline;
 }
@@ -67,7 +60,6 @@ h1 > a:hover, h2 > a:hover{
 .dropdown-toggle:active{
 	color: rgb(150,30,30);
 	text-decoration: underline;
-	background: rgb(255,255,200);
 }
 
 /* Menu Dropdown Link Colors - Default*/
