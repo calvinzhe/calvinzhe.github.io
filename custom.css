@@ -23,6 +23,7 @@ h1 > a:hover, h2 > a:hover{
 }
 
 /* Menu Icon */
+.navbar-toggler,
 .navbar-toggler-icon{
 	background: rgb(255,255,255);
 	border-color: rgb(200,50,50);
