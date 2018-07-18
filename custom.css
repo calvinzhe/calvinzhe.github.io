@@ -77,6 +77,13 @@ h1 > a:hover, h2 > a:hover{
 	display: block;
 }
 
+/* Buttons */
+.btn{
+	color: rgb(150,30,30);
+	border-color: rgb(150,30,30);
+	background: rgb(255,255,255);
+}
+
 /* Share buttons */
 .sharebuttons {
   margin: 0 auto 0 auto;
