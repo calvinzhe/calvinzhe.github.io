@@ -23,7 +23,7 @@ h1 > a:hover, h2 > a:hover{
 }
 
 /* Menu Icon */
-.navbar-toggler{
+.navbar-toggler-icon{
 	background: rgb(255,255,255);
 	border-color: rgb(200,50,50);
 	color: rgb(200,50,50);
@@ -35,6 +35,7 @@ h1 > a:hover, h2 > a:hover{
 .navbar .nav > li.current-menu-item > a,
 .navbar .nav > li.current-menu-ancestor > a,
 .nav-link,
+.nav-item,
 .dropdown-toggle{
 	color: rgb(200,50,50);
 }
@@ -42,6 +43,7 @@ h1 > a:hover, h2 > a:hover{
 /* Menu Link Colors - Hover */
 .navbar .nav > li > a:hover,
 .nav-link:hover,
+.nav-item:hover,
 .dropdown-item:hover,
 .dropdown-menu > li > a:hover,
 .dropdown-toggle:hover{
@@ -54,6 +56,7 @@ h1 > a:hover, h2 > a:hover{
 .navbar .nav > li.current-menu-item > a, 
 .navbar .nav > li.current-menu-ancestor > a,
 .nav-link:active,
+.nav-item:active,
 .dropdown-item:active,
 .dropdown-menu > li > a:active,
 .dropdown-toggle:active{
