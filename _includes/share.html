@@ -1,20 +1,20 @@
 <div class="dropdown dropright">
-<button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-Share <span class="glyphicon glyphicon-share"></span>
+<button type="button" class="btn btn-default btn-md dropdown-toggle" data-toggle="dropdown">
+<span class="glyphicon glyphicon-share"></span> Share
 </button>
 
 <div class="dropdown-menu">
-      <a class="dropdown-item facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
-        {% include social/facebook.svg %}
+      <a class="dropdown-item" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
+        <div class="facebook">{% include social/facebook.svg %}</div>
       </a>
-      <a class="dropdown-item googleplus" href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default:"" | uri_escape}}" target="_blank">
-        {% include social/googleplus.svg %}
+      <a class="dropdown-item" href="https://plus.google.com/share?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default:"" | uri_escape}}" target="_blank">
+        <div class="googleplus">{% include social/googleplus.svg %}</div>
       </a>
-      <a class="dropdown-item twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"" | uri_escape}}" target="_blank">
-        {% include social/twitter.svg %}
+      <a class="dropdown-item" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"" | uri_escape}}" target="_blank">
+        <div class="twitter">{% include social/twitter.svg %}</div>
       </a>
-      <a class="dropdown-item linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
-        {% include social/linkedin.svg %}
+      <a class="dropdown-item" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
+        <div class="linkedin">{% include social/linkedin.svg %}</div>
       </a>
     <hr />
 </div>
