@@ -45,13 +45,28 @@ the world that carries this culture of tech entrepreneurship that defines the ci
 Except unlike gambling or stock investing, I find tech entrepreneurship to be the most admirable of the three industries.
 
 This conference would also be, for the first time, one that I would attend for myself and not because I was obligated to as part of my research
-responsibilities.  The cost would be that I would pay for the travel and lodging myself, instead of having the University reimburse these costs, which would
+responsibilities.  The caveat would be that I would pay for the travel and lodging myself, instead of having the University reimburse these costs, which would
 have required justification specifically for how it benefits the University.  As a result of being free of these burdens, I was able to thoroughly enjoy my
 time at this conference.
 
 #### DC Startup Week 2023
 
-To be continued
+During the Summer of 2023, I attended the DC Startup Week, which was my first direct exposure to the startup community.  I attended as a job seeker looking for
+an opportunity to use my experience, particularly from my PhD, in a technical field in the ballpark of engineering, optics, electronics, or robotics with an
+interest in a product development role.  The majority of the attendees I met during this event tended to be software developers.  There was also a trend in
+these startups having goals related to social service such as helping underserved communities gain access to tech or using tech - namely social media products -
+to create communities or serve people in some way.  The most "technical" of the startups I encountered, in my opinion, would be the one about new and more
+efficient methods of lithium extraction, presented by a Chemical Engineering PhD student from the University of Maryland.
+
+One of the more interesting programs I learned about were the Small Business Innovation Research (SBIR) programs where the US government will provide funding to
+businesses that can develop solutions to problems posed by various government institutions.  This provides an avenue for small businesses to work on new useful
+ideas that would not otherwise be profitable without such support.  To me, this sounded like academic research, except the research and development is conducted
+in a small business context rather than a university.  Perhaps my PhD background can be applicable to entrepreneurship after all.  However, looking at some of
+the SBIR postings - for example, the US Army is looking for MEDEVAC solutions by drone - these are not easy problems nor are they directly connected to my background.
+
+Perhaps my best networking experience I have had to date was at DC Startup Week.
+
+
 
 #### NATO to the Future 2024
 
