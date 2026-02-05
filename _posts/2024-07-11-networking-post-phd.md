@@ -70,7 +70,7 @@ Perhaps my best networking experience I have had to date was at DC Startup Week.
 
 #### NATO to the Future 2024
 
-
+I got to see some interesting presentations and made a connection or two at this networking event, but it otherwise felt unfriendly.  As part of a robotics gaming startup meant to appeal to kids, hobbyists, and enthusiasts, I did not have anything really to offer to people who worked in the defense sector with serious technology (ordinance manufacturing robots being one example I remembered).  A presentation on Space Manufacturing (imagine perfect spheres arising from a zero-G environment) did pique my interest.  Good thing my startup founder later showed up to bail me out of the painful experience of feeling alone and invisible in a crowd.
 
 
 
